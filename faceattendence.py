@@ -15,11 +15,11 @@ def speak(str1):
     speak.Speak(str1)
 
 video=cv2.VideoCapture(0)
-facedetect=cv2.CascadeClassifier('data/haarcascade_frontalface_default.xml')
+facedetect=cv2.CascadeClassifier('class.xml') #upload your XML fule
 
-with open('data/names.pkl', 'rb') as w:
+with open('names.pkl', 'rb') as w: #name of user as pkl file
     LABELS=pickle.load(w)
-with open('data/faces_data.pkl', 'rb') as f:
+with open('user_face_data.pkl', 'rb') as f: #your user face data file as pkl
     FACES=pickle.load(f)
 
 print('Shape of Faces matrix --> ', FACES.shape)
@@ -27,7 +27,7 @@ print('Shape of Faces matrix --> ', FACES.shape)
 knn=KNeighborsClassifier(n_neighbors=5)
 knn.fit(FACES, LABELS)
 
-imgBackground=cv2.imread("company_banne.png")
+imgBackground=cv2.imread('image.png") #select your image for frame background
 
 COL_NAMES = ['NAME', 'TIME']
 
