@@ -1,4 +1,5 @@
-Interactive Attendance App
+**Interactive Attendance App**
+
 The Interactive Attendance App is a web application developed with Streamlit, designed for teachers to manage attendance records and visualize data. It provides a user-friendly interface for viewing and analyzing attendance data and allows users to upload their own CSV files for customized data analysis.
 Requirements
 Before you start using the Interactive Attendance App, make sure you have the following requirements installed:
@@ -8,10 +9,7 @@ Before you start using the Interactive Attendance App, make sure you have the fo
 3. pip install streamlit pandas plotly
 
 Usage
-Clone the repository to your local machine:
 
-
-git clone https://github.com/yourusername/interactive-attendance-app.git
 Change to the project directory:
 cd interactive-attendance-app
 Run the Streamlit app:
