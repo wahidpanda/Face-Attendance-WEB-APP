@@ -1,7 +1,14 @@
 **Interactive Attendance App**
 
 Previews:
-(https://github.com/wahidpanda/Face-Attendance-WEB-APP/blob/main/1.jpg) 
+
+![1](https://github.com/wahidpanda/Face-Attendance-WEB-APP/assets/110899864/0c2e16b3-2ba6-49df-b370-a44ff66d8e63)
+![2](https://github.com/wahidpanda/Face-Attendance-WEB-APP/assets/110899864/b52046b4-8bc8-43e9-8256-2df915738e3f) 
+![3](https://github.com/wahidpanda/Face-Attendance-WEB-APP/assets/110899864/6370b291-0a72-4832-989c-0a9a829e486f)
+![4](https://github.com/wahidpanda/Face-Attendance-WEB-APP/assets/110899864/563dd810-0a60-4104-8ac5-f11da2c676ce)
+![5](https://github.com/wahidpanda/Face-Attendance-WEB-APP/assets/110899864/06fa77c4-cacf-46a1-89a7-98dfff29e6f5)
+
+
 
 The Interactive Attendance App is a web application developed with Streamlit, designed for teachers to manage attendance records and visualize data. It provides a user-friendly interface for viewing and analyzing attendance data and allows users to upload their own CSV files for customized data analysis.
 Requirements
